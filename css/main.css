@@ -16,7 +16,7 @@ html {
 .card {
   display: inline-block;
   background-color: #fff;
-  border: 10px;
+  border: 3px solid;
   border-color: #000;
   border-radius: .5em;
 }
@@ -32,9 +32,11 @@ html {
 
 .btn:hover {
   background-color: #333;
+  color: #fff;
 }
 
 a {
+  display: inline-block;
   text-decoration: none;
   color: #000;
 }
